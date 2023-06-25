@@ -32,7 +32,7 @@
     },
     {
       "name": "Pregunta 04",
-      "setup": "pip3 install scikit-learn==1.0.2 pandas==1.1.5 numpy",
+      "setup": "pip3 install scikit-learn==1.0.2 pandas numpy",
       "run": "python3 tests.py 04",
       "input": "",
       "output": "R^2: 0.6880\r\nRoot Mean Squared Error: 4.7154",
