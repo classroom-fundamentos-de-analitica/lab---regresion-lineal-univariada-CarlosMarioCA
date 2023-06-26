@@ -138,7 +138,7 @@ def pregunta_04():
     )
 
     # Cree una instancia del modelo de regresión lineal
-    linearRegression = LinearRegression
+    linearRegression = LinearRegression()
 
     # Entrene el clasificador usando X_train y y_train
     linearRegression.fit(X_train, y_train)
