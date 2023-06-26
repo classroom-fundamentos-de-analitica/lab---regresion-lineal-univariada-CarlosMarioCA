@@ -76,7 +76,7 @@ def pregunta_03():
 
     # Asigne a la variable los valores de la columna `fertility`
     X_fertility = df[['fertility']]
-    
+
     # Asigne a la variable los valores de la columna `life`
     y_life = df[['life']]
 
@@ -104,6 +104,7 @@ def pregunta_03():
 
 
 def pregunta_04():
+
     """
     Particionamiento del conjunto de datos usando train_test_split.
     Complete el código presentado a continuación.
@@ -122,10 +123,10 @@ def pregunta_04():
     df = pd.read_csv("gm_2008_region.csv")
 
     # Asigne a la variable los valores de la columna `fertility`
-    X_fertility = df["fertility"]
+    X_fertility = df[["fertility"]]
 
     # Asigne a la variable los valores de la columna `life`
-    X_fertility = df["life"]
+    X_fertility = df[["life"]]
 
     # Divida los datos de entrenamiento y prueba. La semilla del generador de números
     # aleatorios es 53. El tamaño de la muestra de entrenamiento es del 80%
